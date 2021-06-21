@@ -18,7 +18,6 @@ Multi-modal Movie Summarization Model.
 * Python 3 : tested with 3.5
 * [PyTorch](http://pytorch.org/) : tested with versions from 0.4 to 1.4.0
 * GPU support (ideally multiple) : tested with 4 NVIDIA GTX1080Ti or RTX2080Ti
-* MATLAB (for computing the evaluation metrics) : tested with R2015a or newer
 
 You can install the required python packages with the command: 
 ```bash
@@ -41,9 +40,9 @@ AudioVisual-MSNet/
     fold_lists/
         *.txt (lists of datasets)
     pretrained_models/
-        av-msnet_visual_only/
+        audiovisual-msnet_visual_only/
             visual_save_60.pth
-        av-msnet_audiovisual/
+        audiovisual-msnet_audiovisual/
             audiovisual_save_60.pth
         resnet-50-kinetics.pth
         soundnet8.pth
